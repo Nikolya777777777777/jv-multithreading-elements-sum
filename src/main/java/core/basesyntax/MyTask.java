@@ -10,7 +10,6 @@ public class MyTask extends RecursiveTask<Long> {
         this.startPoint = startPoint;
         this.finishPoint = finishPoint;
     }
-
     @Override
     protected Long compute() {
         // write your code here
